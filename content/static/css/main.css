@@ -1,0 +1,28 @@
+body {
+    max-width: 950px;
+
+}
+h2 {
+    color: #3f75bd;
+}
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+}
+.school_name, .position {
+    font-weight: bold;
+    padding-top: 10pt;
+}
+.degree{
+    font-style: italic
+}
+.graduation_date:before {
+    content: "Graduated: "
+}
+.dates {
+    color: #5f6874;
+    font-size: .8em;
+}
+.duties::before {
+    content: "Duties: "
+}

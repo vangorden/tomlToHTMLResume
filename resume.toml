@@ -1,0 +1,64 @@
+# Example Resume Data in TOML format
+
+title = "Developer Resume"
+name = "Janeie Smith"
+objective = "To be the best"
+strengths = "Meticulous and tenacious, but never pernicious"
+interests = "Algorithms, data structures, and simplicity"
+theme = "example" # Stop server before changing theme
+summary = "Team player with coding chops looking for company to grow with."
+headline = "Software Engineer"
+
+
+[contactinfo]
+    street_address = "1984 S. 16th St."
+    city_state_zip = "Guerneville, CA 95446"
+    phone = "(101) 100-1010"
+    email = "jsmith@example.com"
+    website = "www.example.com"
+    github = "www.github.com/jsmith"
+    linkedIn = "www.linkedIn.com/jsmith"
+
+[education]
+    [education.school_1]
+        school_name = "The University of Arizona"
+        degree = "Bachelors of Science in Computational Linguistics"
+        dates = "August 2004 - December 2008 "
+        graduation_date = "December, 2008"
+        "course work" = ""
+        awards = ""
+    [education.school_2]
+        school_name = "Pima Community College"
+        dates = "June 2017 - Current"
+        degree = "Associates of Science in Computer Science"
+        graduation_date = "Expected graduation date of December, 2020"
+
+[experience]
+    [experience.employer_1]
+        position="Analyst"
+        experience_name = "E Corp."
+        location = "New York, NY"
+        dates = "April 2015 - January 2017"
+        duties = ["Profit maximization", "Supply-chain management","Asset Allocation"] 
+
+    [experience.employer_2]
+        position="Software Engineer"
+        experience_name = "Pied Piper"
+        location = "San Jose, CA"
+        dates = "April 2015 - January 2017"
+        duties = "Development of compression algorithms"
+
+    [employer_3]
+        experience_name = "Circuit City"
+        dates = "April 2015 - January 2017"
+        duties = ""
+
+[languages]
+    python = "5 years experience"
+    java = "11 years experience"
+    javascript = "familiar"
+    bash = "familiar"
+
+[tools_and_utils]
+    "Operating Systems" = ["POSIX", "UNIX", "LINUX", "MacOS", "Windows"]
+    "Tools" = ["Git", "Mercurial", "AWS", "Ansible"]
