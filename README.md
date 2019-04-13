@@ -1,13 +1,13 @@
 # tomlToHTMLResume
 Takes resume data in a toml file, and builds a html resume based on jinja2 templates.
 
-Project is currently in development, and contains little testing, expect bugs!
-It has currently only been tested on Ubuntu, using python 3.7.0.
+Project is in development, and you'll likely run into bugs.
+Currently, it has only been tested on Ubuntu using python 3.7.
 
 ## Usage:
 Create yourself a virtual environment using python 3.5+
 
-Install requirements: `pip install requirements.txt`
+Install requirements: `pip install -r requirements.txt`
 
 Build project to content directory within project: `python toml_to_html.py`
 
